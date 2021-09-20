@@ -21,6 +21,8 @@ Rodando o notebook no [jupyter](https://jupyter.org/) ou no [google colab](https
 
 Faz um __POST__ com os parametros da API (__*order, ano, pagina, tiposDeProposicao*__) no site da Camara e recebe um __JSON de resposta__.
 
+A url que passamos os parâmetros é: ` https://www.camara.leg.br/api/v1/busca/proposicoes/_search `
+
 Passa como parametros do payload:
 
 * o ano_atual → como há recesso parlamentar no final do ano, nao ha riscos de perder propostas nos 3 primeiros dias do ano.
